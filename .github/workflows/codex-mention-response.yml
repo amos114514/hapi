@@ -107,7 +107,7 @@ jobs:
         if: steps.check_skip.outputs.should_skip != 'true'
         uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
           fetch-depth: 0
 
       - name: Fetch all branches
